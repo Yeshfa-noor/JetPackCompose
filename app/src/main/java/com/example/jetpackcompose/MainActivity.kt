@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
     @Composable
     fun SignIn() {
         val gradientGrayWhite = Brush.verticalGradient(
-            0f to White, 1000f to Blue
+            0f to White, 0.9f to Blue
         )
 
         Box(
@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
 
             Text(
                 modifier = Modifier
-                    .padding(top = 150.dp),
+                    .padding(top = 200.dp),
                 text = "Hi There!",
                 color = Black,
                 fontWeight = FontWeight.Bold,
